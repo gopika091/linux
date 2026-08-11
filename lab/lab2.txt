@@ -1,0 +1,35 @@
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ nano lab2.sh                     
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ ./lab2.sh                                                                                            
+zsh: permission denied: ./lab2.sh
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ chmod 777 lab1.sh 
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ ./lab2.sh           
+zsh: permission denied: ./lab2.sh
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ chmod 777 lab2.sh
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ ./lab2.sh        
+Enter the tool name: git
+git is installed.
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ ./lab2.sh        
+Enter the tool name: abc
+abc is not installed.
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ git add .                        
+                                                                                                                                                                                                                                           
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ git commit -m "lab2 tool install"
+[main 5d2fab8] lab2 tool install
+ 1 file changed, 10 insertions(+)
+ create mode 100755 lab/lab2.sh
