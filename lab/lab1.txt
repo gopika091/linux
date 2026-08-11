@@ -1,0 +1,59 @@
+┌──(gopika㉿kali)-[~]
+└─$ cd ~
+
+┌──(gopika㉿kali)-[~]
+└─$ git clone https://github.com/gopika091/linuxxhw.git
+Cloning into 'linuxxhw'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0)
+Receiving objects: 100% (6/6), done.
+
+┌──(gopika㉿kali)-[~]
+└─$ cd linuxxhw
+
+┌──(gopika㉿kali)-[~/linuxxhw]
+└─$ mkdir theory lab
+
+┌──(gopika㉿kali)-[~/linuxxhw]
+└─$ cd lab
+
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ nano lab1.sh
+
+
+
+
+
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ chmod +x lab1.sh
+
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ ./lab1.sh
+Updating system...
+[sudo] password for gopika:
+Hit:1 http://http.kali.org/kali kali-rolling InRelease
+Reading package lists... Done
+Updating system completed.
+
+┌──(gopika㉿kali)-[~/linuxxhw/lab]
+└─$ cd ..
+
+┌──(gopika㉿kali)-[~/linuxxhw]
+└─$ git config --global user.name "gopika"
+
+┌──(gopika㉿kali)-[~/linuxxhw]
+└─$ git config --global user.email "gopikashree089@gmail.com"
+
+┌──(gopika㉿kali)-[~/linuxxhw]
+└─$ git add .
+
+┌──(gopika㉿kali)-[~/linuxxhw]
+└─$ git commit -m "Lab 1 - updated system"
+[main xxxxxxx] Lab 1 - updated system
+ 1 file changed, 4 insertions(+)
+ create mode 100755 lab/lab1.sh
+
+┌──(gopika㉿kali)-[~/linuxxhw]
+└─$ git push origin main
